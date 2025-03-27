@@ -88,7 +88,7 @@ minetest.register_on_player_receive_fields(function(player, formname, fields)
 		if fields.quit or fields.key_enter then
 			form_obj[name] = nil
 			serialize_horse_inventory(ent)
-			minetest.remove_detached_inventory("animlaia:horse_" .. name)
+			minetest.remove_detached_inventory("animalia:horse_" .. name)
 		end
 	end
 

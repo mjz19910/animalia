@@ -4,6 +4,7 @@
 
 creatura.register_mob("animalia:tropical_fish", {
 	-- Engine Props
+	initial_properties = {},
 	visual_size = {x = 10, y = 10},
 	meshes = {
 		"animalia_clownfish.b3d",

@@ -4,6 +4,7 @@
 
 creatura.register_mob("animalia:reindeer", {
 	-- Engine Props
+	initial_properties = {},
 	visual_size = {x = 10, y = 10},
 	mesh = "animalia_reindeer.b3d",
 	textures = {"animalia_reindeer.png"},

@@ -163,6 +163,7 @@ end
 
 creatura.register_mob("animalia:horse", {
 	-- Engine Props
+	initial_properties = {},
 	visual_size = {x = 10, y = 10},
 	mesh = "animalia_horse.b3d",
 	textures = {

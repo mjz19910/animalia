@@ -4,6 +4,7 @@
 
 creatura.register_mob("animalia:chicken", {
 	-- Engine Props
+	initial_properties = {},
 	visual_size = {x = 10, y = 10},
 	mesh = "animalia_chicken.b3d",
 	female_textures = {

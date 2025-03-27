@@ -24,6 +24,7 @@ local palette  = {
 
 creatura.register_mob("animalia:sheep", {
 	-- Engine Props
+	initial_properties = {},
 	visual_size = {x = 10, y = 10},
 	mesh = "animalia_sheep.b3d",
 	textures = {

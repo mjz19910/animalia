@@ -4,6 +4,7 @@
 
 creatura.register_mob("animalia:opossum", {
 	-- Engine Props
+	initial_properties = {},
 	visual_size = {x = 10, y = 10},
 	mesh = "animalia_opossum.b3d",
 	textures = {

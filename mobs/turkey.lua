@@ -4,6 +4,7 @@
 
 creatura.register_mob("animalia:turkey", {
 	-- Engine Props
+	initial_properties = {},
 	visual_size = {x = 10, y = 10},
 	mesh = "animalia_turkey.b3d",
 	female_textures = {"animalia_turkey_hen.png"},

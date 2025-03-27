@@ -4,6 +4,7 @@
 
 creatura.register_mob("animalia:grizzly_bear", {
 	-- Engine Props
+	initial_properties = {},
 	visual_size = {x = 10, y = 10},
 	mesh = "animalia_bear.b3d",
 	textures = {

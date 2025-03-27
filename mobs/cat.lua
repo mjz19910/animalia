@@ -15,6 +15,7 @@ end
 
 creatura.register_mob("animalia:cat", {
 	-- Engine Props
+	initial_properties = {},
 	visual_size = {x = 10, y = 10},
 	mesh = "animalia_cat.b3d",
 	textures = {

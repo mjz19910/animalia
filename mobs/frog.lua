@@ -107,6 +107,7 @@ local follow = {
 
 creatura.register_mob("animalia:frog", {
 	-- Engine Props
+	initial_properties = {},
 	visual_size = {x = 10, y = 10},
 	meshes = {
 		"animalia_frog.b3d",

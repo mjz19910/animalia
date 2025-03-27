@@ -6,6 +6,7 @@ local random = math.random
 
 creatura.register_mob("animalia:song_bird", {
 	-- Engine Props
+	initial_properties = {},
 	visual_size = {x = 10, y = 10},
 	mesh = "animalia_bird.b3d",
 	textures = {

@@ -19,7 +19,7 @@ local function register_egg(name, def)
 
 	minetest.register_entity(def.mob .. "_egg_entity", {
 		hp_max = 1,
-		physical = true,
+		initial_properties = {physical = true},
 		collisionbox = {-0.1, -0.1, -0.1, 0.1, 0.1, 0.1},
 		visual = "sprite",
 		visual_size = {x = 0.5, y = 0.5},

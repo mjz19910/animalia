@@ -54,7 +54,7 @@ if farming_enabled then
 			or farming.registered_plants[item_name] then
 				def.groups.crop = growth_stage
 			end
-			minetest.register_node(":" .. name, def)
+			minetest.register_node(":" .. name, table.copy(def))
 		end
 	end)
 end
